@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: aquamarine;
+}
+
+footer{
+    height: 200px;
+    position: fixed;
+    bottom: 0px;
+}
+
+section #first{
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+}

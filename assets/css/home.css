@@ -1,14 +1,14 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
 }
 
-footer{
+/* footer{
     height: 200px;
     position: fixed;
     bottom: 0px;
-}
+} */
 
 section #first{
     display: flex;

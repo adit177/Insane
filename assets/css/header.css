@@ -9,6 +9,7 @@ header{
     line-height: 32px;
     margin: 0;
     padding: 0;
+    margin-bottom:40px;
     word-wrap: break-word !important;
     font-family: "Montserrat", sans-serif;
 }
@@ -126,6 +127,7 @@ nav ul ul {
     /* has to be the same number as the "line-height" of "nav a" */
     top: 45px;
     box-shadow: 0px 0px 30px rgb(127 137 161 / 25%);
+    z-index: 1000;
 }
 
 /* Display Dropdowns on Hover */
@@ -162,7 +164,7 @@ nav ul ul ul li {
     height: 20px;
     float: right;
     margin: 5px 6px 0px 8px;
-    z-index: 1000;
+    
 }
 
 li>a:only-child:after {

@@ -1,17 +1,26 @@
-body{
-    margin: 0;
-    padding: 0;
-    /* background-color: aquamarine; */
+* { box-sizing: border-box; }
+
+body { font-family: sans-serif; }
+
+.carousel {
+  background: #EEE;
 }
 
-/* footer{
-    height: 200px;
-    position: fixed;
-    bottom: 0px;
-} */
+.carousel-cell {
+  width: 66%;
+  height: 550px;
+  margin-right: 10px;
+  background: #8C8;
+  border-radius: 5px;
+  counter-increment: gallery-cell;
+}
 
-section #first{
-    display: flex;
-    flex-direction: column;
-    z-index: 1;
+/* cell number */
+.carousel-cell:before {
+  display: block;
+  text-align: center;
+  content: counter(gallery-cell);
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
 }

@@ -124,7 +124,7 @@ nav ul ul {
     display: none;
     position: absolute;
     /* has to be the same number as the "line-height" of "nav a" */
-    top: 40px;
+    top: 45px;
     box-shadow: 0px 0px 30px rgb(127 137 161 / 25%);
 }
 
@@ -154,8 +154,15 @@ nav ul ul ul li {
 
 
 /* Change ' +' in order to change the Dropdown symbol */
-li>a:after {
-    content: "";
+.tobedrop:after{
+    content: '';
+    display: block;
+    background: url("/images/dropdown.svg") no-repeat;
+    width: 20px;
+    height: 20px;
+    float: right;
+    margin: 5px 6px 0px 8px;
+    z-index: 1000;
 }
 
 li>a:only-child:after {

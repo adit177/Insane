@@ -7,6 +7,7 @@ footer{
     object-fit: contain;
     height: auto;
     padding-top: 10px;
+    color: #fff;
     width: 100%;
     cursor: -webkit-grabbing;
 }
@@ -50,6 +51,15 @@ a .instagram,.facebook,.twitter{
 }
 .f-credits{
     padding-top: 20px;
+}
+
+.container{
+  margin: 20px auto;
+}
+
+.f-social-icons{
+  width: 174px;
+  margin: auto;
 }
 /* .container{
     width: 100%;

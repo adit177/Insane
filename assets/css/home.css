@@ -1,5 +1,9 @@
 * { box-sizing: border-box; }
 
+
+
+body { font-family: sans-serif; }
+
 .carousel {
   background: rgb(255, 255, 255);
   margin-top: 5%;

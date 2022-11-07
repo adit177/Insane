@@ -3,13 +3,13 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 @import url(https://fonts.googleapis.com/css?family=Bree+Serif);
 
-header{
+header {
     /* background: #212121; */
     font-size: 22px;
     line-height: 32px;
     margin: 0;
     padding: 0;
-    margin-bottom:40px;
+    margin-bottom: 40px;
     word-wrap: break-word !important;
     font-family: "Montserrat", sans-serif;
 }
@@ -89,7 +89,7 @@ nav ul {
     padding: 0;
     margin: 0;
     list-style: none;
-    
+
 }
 
 /* Positioning the navigation items inline */
@@ -156,7 +156,7 @@ nav ul ul ul li {
 
 
 /* Change ' +' in order to change the Dropdown symbol */
-.tobedrop:after{
+.tobedrop:after {
     content: '';
     display: block;
     background: url("/images/dropdown.svg") no-repeat;
@@ -164,11 +164,39 @@ nav ul ul ul li {
     height: 20px;
     float: right;
     margin: 5px 6px 0px 8px;
-    
+
 }
 
 li>a:only-child:after {
     content: '';
+}
+
+/* underline */
+/* ---------------- */
+
+.underline {
+    color: #18272F;
+    position: relative;
+    text-decoration: none;
+}
+
+.underline::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    border-radius: 4px;
+    background-color: rgb(138,24,134);
+    bottom: 0;
+    left: 0;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .6s ease-in-out;
+}
+
+.underline:hover::before {
+    transform-origin: left;
+    transform: scaleX(1);
 }
 
 
@@ -199,12 +227,11 @@ li>a:only-child:after {
     /* Stylinf the toggle lable */
     .toggle {
         display: block;
-        background-color: #FFF;
-        padding: 14px 20px;
-        color: #FFF;
-        font-size: 17px;
-        text-decoration: none;
-        border: none;
+        background: url("/images/bars-solid.svg") no-repeat;
+        width: 20px;
+        height: 20px;
+        float: right;
+        margin: 18px 6px 0px 8px;
     }
 
     .toggle:hover {
@@ -231,10 +258,10 @@ li>a:only-child:after {
         padding: 0 80px;
     }
 
-    nav a:hover,
+    /* nav a:hover,
     nav ul ul ul a {
         background-color: #000000;
-    }
+    } */
 
     nav ul li ul li .toggle,
     nav ul ul a,
@@ -245,10 +272,10 @@ li>a:only-child:after {
     }
 
 
-    nav ul li ul li .toggle,
+    /* nav ul li ul li .toggle,
     nav ul ul a {
         background-color: #212121;
-    }
+    } */
 
     /* Hide Dropdowns by Default */
     nav ul ul {

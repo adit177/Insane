@@ -1,6 +1,7 @@
+/* Carousel */
+/* ----------------- */
+
 * { box-sizing: border-box; }
-
-
 
 body { font-family: sans-serif; 
 }
@@ -27,6 +28,7 @@ body { font-family: sans-serif;
   display: block;
   content: '';
 }
+
 .hr-lines:before{
     content:" ";
     display: block;
@@ -295,3 +297,42 @@ body { font-family: sans-serif;
   }
 
   
+
+
+
+/* Team */
+/* --------------- */
+
+#team{
+  margin: 50px auto;
+  color: black;
+
+}
+
+#team .card{
+  border: none;
+  padding: 0;
+}
+
+#team .card-body h3{
+  font-weight: 700;
+  margin: 15px 0 5px 0;
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  text-align: left;
+}
+
+#team .card img{
+  height: 300px;
+  width: auto;
+}
+
+#team #main{
+  width: auto;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+

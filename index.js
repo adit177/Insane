@@ -10,9 +10,6 @@ app.use(express.urlencoded({extended:false}));
 
 app.set('layout extractStyles', true);
 app.set('layout extractScripts', true);
-
-
-
 app.set('view engine','ejs');
 app.set('views',path.join(__dirname,'views'));
 

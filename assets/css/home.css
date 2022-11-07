@@ -1,26 +1,22 @@
 * { box-sizing: border-box; }
 
-body { font-family: sans-serif; }
-
 .carousel {
-  background: #EEE;
+  background: rgb(255, 255, 255);
+  margin-top: 5%;
 }
 
 .carousel-cell {
   width: 66%;
-  height: 550px;
+  margin: 10px;
+  height: 600px;
   margin-right: 10px;
-  background: #8C8;
-  border-radius: 5px;
-  counter-increment: gallery-cell;
+  border-radius: 15px;
+  background-size: cover;
+  background-position: center center;
 }
 
 /* cell number */
 .carousel-cell:before {
   display: block;
-  text-align: center;
-  content: counter(gallery-cell);
-  line-height: 200px;
-  font-size: 80px;
-  color: white;
+  content: '';
 }

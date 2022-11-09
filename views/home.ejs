@@ -2,111 +2,155 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- CSS only -->
-    <link rel="stylesheet" href="/css/home.css" />
-    <title>
-        <%=title%>
-    </title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- CSS only -->
+  <link rel="stylesheet" href="/css/home.css" />
+  <title>
+    <%=title%>
+  </title>
 </head>
 
 <body>
 
-    <div class="carousel" data-flickity='{ "wrapAround": true }'>
-        <div class="carousel-cell" style="background-image: url(/images/2.jpeg);"></div>
-        <div class="carousel-cell" style="background-image: url(/images/3.jpeg);"></div>
-        <div class="carousel-cell" style="background-image: url(/images/4.jpeg);"></div>
+  <div class="carousel" data-flickity='{ "wrapAround": true }'>
+    <div class="carousel-cell" style="background-image: url(/images/2.jpeg);"></div>
+    <div class="carousel-cell" style="background-image: url(/images/3.jpeg);"></div>
+    <div class="carousel-cell" style="background-image: url(/images/4.jpeg);"></div>
+
+  </div>
+
+  
+
+  <!-- --------Programs and Events------------ -->
+
+  <h2 class="hr-lines">Programs and Events</h2>
+  <div style="text-align: center;">
+    <h1 class="latest">Latest </h1>
+    <h1 class="latest Announcement"> Announcement</h1>
+  </div>
+  <div class="slider">
+    <input type="radio" name="testimonial" id="t-1" />
+    <input type="radio" name="testimonial" id="t-2" />
+    <input type="radio" name="testimonial" id="t-3" checked />
+    <input type="radio" name="testimonial" id="t-4" />
+    <input type="radio" name="testimonial" id="t-5" />
+    <div class="testimonials mb-8">
+      <label class="item" for="t-1">
+        <div class="mycard">
+          <p class="cardtitle">Práctica</p>
+          <div>
+            <img src="https://i.pravatar.cc/200" alt="nivel5" class="cardimg" />
+          </div>
+          <div>
+            <p class="carddescription">It is an event where we share our idea to our innovation club.</p>
+          </div>
+        </div>
+      </label>
+      <label class="item" for="t-2">
+        <div class="mycard">
+          <p class="cardtitle">Práctica</p>
+          <div>
+            <img src="https://i.pravatar.cc/200" alt="nivel5" class="cardimg" />
+          </div>
+          <div>
+            <p class="carddescription">Poner en práctica los conocimientos adquiridos.</p>
+          </div>
+        </div>
+      </label>
+      <label class="item" for="t-3">
+        <div class="mycard">
+          <p class="cardtitle">Tussel</p>
+          <div>
+            <img src="/images/hackathon.jpeg" alt="nivel5" class="cardimg" />
+          </div>
+          <div>
+            <p class="carddescription">It is an event where we share our idea to our innovation club.</p>
+          </div>
+        </div>
+      </label>
+      <label class="item" for="t-4">
+        <div class="mycard">
+          <p class="cardtitle">Práctica</p>
+          <div>
+            <img src="https://i.pravatar.cc/200" alt="nivel5" class="cardimg" />
+          </div>
+          <div>
+            <p class="carddescription">Poner en práctica los conocimientos adquiridos.</p>
+          </div>
+        </div>
+      </label>
+      <label class="item" for="t-5">
+        <div class="mycard">
+          <p class="cardtitle">Práctica</p>
+          <div>
+            <img src="https://i.pravatar.cc/200" alt="nivel5" class="cardimg" />
+          </div>
+          <div>
+            <p class="carddescription">Poner en práctica los conocimientos adquiridos.</p>
+          </div>
+        </div>
+      </label>
+    </div>
+    <div class="dots">
+      <label for="t-1"></label>
+      <label for="t-2"></label>
+      <label for="t-3"></label>
+      <label for="t-4"></label>
+      <label for="t-5"></label>
+    </div>
+  </div>
+  <br>
+  <div class="just">
+    <div id="container">
+      <button class="learn-more">
+        <span class="circle" aria-hidden="true">
+          <span class="icon arrow"></span>
+        </span>
+        <span class="button-text">View All</span>
+      </button>
+    </div>
+  </div>
+
+
+  <!-- -------Startups--------- -->
+  <!-- -------------------------- -->
+
+  <section id="startup">
+    <h2 class="hr-lines">INCUBATED STARTUPS</h2>
+    <div style="text-align: center;">
+      <h4 style="color: grey; margin-bottom: 10px;" >Startups Incubated by IISC,KNIT Sultanpur</h4>
+    </div>
+    <a href="#">All</a>
+    <a href="#">CASHCRY</a>
+    <a href="#">MAHAMANIA</a>
+    <a href="#">NETALAS</a>
+
+    <div class="image-container">
+
+      <img src="images/app.jpg" alt="" data-album="album 1">
+      <img src="images/cash.jpeg" alt="" data-album="album 1">
+      <img src="images/logo.jpeg" alt="" data-album="album 1">
+      <img src="images/card1.jpg" alt="" data-album="album 2">
+      <img src="images/card2.jpg" alt="" data-album="album 2">
+      <img src="images/mmania.jpg" alt="" data-album="album 2">
+      <img src="images/net.jpg" alt="" data-album="album 3">
+      <img src="images/net1.jpeg" alt="" data-album="album 3">
+      <img src="images/netalas.jpeg" alt="" data-album="album 3">
 
     </div>
 
-    <h2 class="hr-lines">Programs and Events</h2>
-    <div style="text-align: center;"><h1 class="latest" >Latest </h1><h1 class="latest Announcement" > Announcement</h1></div>
-    <div class="slider">
-        <input type="radio" name="testimonial" id="t-1" />
-        <input type="radio" name="testimonial" id="t-2" />
-        <input type="radio" name="testimonial" id="t-3" checked />
-        <input type="radio" name="testimonial" id="t-4" />
-        <input type="radio" name="testimonial" id="t-5" />
-        <div class="testimonials mb-8">
-          <label class="item" for="t-1">
-            <div class="mycard">
-              <p class="cardtitle">Práctica</p>
-              <div>
-                <img src="https://i.pravatar.cc/200" alt="nivel5" class="cardimg" />
-              </div>
-              <div>
-                <p class="carddescription">It is an event where we share our idea to our innovation club.</p>
-              </div>
-            </div>
-          </label>
-          <label class="item" for="t-2">
-            <div class="mycard">
-              <p class="cardtitle">Práctica</p>
-              <div>
-                <img src="https://i.pravatar.cc/200" alt="nivel5" class="cardimg" />
-              </div>
-              <div>
-                <p class="carddescription">Poner en práctica los conocimientos adquiridos.</p>
-              </div>
-            </div>
-          </label>
-          <label class="item" for="t-3">
-            <div class="mycard">
-              <p class="cardtitle">Tussel</p>
-              <div>
-                <img src="/images/hackathon.jpeg" alt="nivel5" class="cardimg" />
-              </div>
-              <div>
-                <p class="carddescription">It is an event where we share our idea to our innovation club.</p>
-              </div>
-            </div>
-          </label>
-          <label class="item" for="t-4">
-            <div class="mycard">
-              <p class="cardtitle">Práctica</p>
-              <div>
-                <img src="https://i.pravatar.cc/200" alt="nivel5" class="cardimg" />
-              </div>
-              <div>
-                <p class="carddescription">Poner en práctica los conocimientos adquiridos.</p>
-              </div>
-            </div>
-          </label>
-          <label class="item" for="t-5">
-            <div class="mycard">
-              <p class="cardtitle">Práctica</p>
-              <div>
-                <img src="https://i.pravatar.cc/200" alt="nivel5" class="cardimg" />
-              </div>
-              <div>
-                <p class="carddescription">Poner en práctica los conocimientos adquiridos.</p>
-              </div>
-            </div>
-          </label>
-        </div>
-        <div class="dots">
-          <label for="t-1"></label>
-          <label for="t-2"></label>
-          <label for="t-3"></label>
-          <label for="t-4"></label>
-          <label for="t-5"></label>
-        </div>
-      </div>
-      <br>
-      <div class="just">
-      <div id="container">
-        <button class="learn-more">
-          <span class="circle" aria-hidden="true">
-            <span class="icon arrow"></span>
-          </span>
-          <span class="button-text">View All</span>
-        </button>
-      </div>
-    </div>
 
-    
+  </section>
+
+
+
+  <!-- -----Ayog-------- -->
+  <!-- ---------------- -->
+
+
+   
     <section class="ayog">
       <div class="container d-flex justify-content-between ayog-div">
         <div class="just"><br><img id="ayog_img" src="/images/mhrd.png" alt=""></div>
@@ -115,47 +159,56 @@
       </div>
       
     </section>
+    
+      <!-- -----Our-Team-------- -->
+  <!-- ---------------- -->
 
     <section id="team">
         <div id="head">
             <figure class="text-center">
                 <blockquote class="blockquote" style="color: black;
-                font-weight: 800;">
-                    <h2 class="hr-lines">Our Team Members</h2>
-                </blockquote>
-                <div style="text-align: center;"><p class="torch" >OUR TORCHBEARERS FOR THE PATH</p></div>
-                <br>
-            </figure>
-        </div>
-        <div id="main">
-            <div class="card" style="width: 18rem;">
-                <img src="/images/vaibhav.jpeg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h3>Vaibhav Pathak</h3>
-                    <h6 style="color: #7cc576;">Secretary</h6>
-                    <br>
-                </div>
-            </div>
-            <div class="card" style="width: 18rem;">
-                <img src="/images/ankit.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h3>Ankit Kumar Chaudhary</h3>
-                    <h6 style="color: #7cc576;">Secretary</h6>
-                    <br>
-                </div>
-            </div>
 
-            <div class="card" style="width: 18rem;">
-                <img src="/images/aditya.jpeg.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h3>Aditya Agnihotri</h3>
-                    <h6 style="color: #7cc576;">Secretary</h6>
-                    <br>
-                    
-                </div>
-            </div>
+                font-weight: 800;">
+          <h2 class="hr-lines">Our Team Members</h2>
+        </blockquote>
+        <div style="text-align: center;">
+          <p class="torch">OUR TORCHBEARERS FOR THE PATH</p>
         </div>
-    </section>
+        <br>
+      </figure>
+    </div>
+    <div id="main">
+      <div class="card" style="width: 18rem;">
+        <img src="/images/vaibhav.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h3>Vaibhav Pathak</h3>
+          <h6 style="color: #7cc576;">Secretary</h6>
+          <br>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="/images/ankit.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h3>Ankit Kumar Chaudhary</h3>
+          <h6 style="color: #7cc576;">Secretary</h6>
+          <br>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="/images/aditya.jpeg.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h3>Aditya Agnihotri</h3>
+          <h6 style="color: #7cc576;">Secretary</h6>
+          <br>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
 
 
 </body>

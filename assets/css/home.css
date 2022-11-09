@@ -420,4 +420,52 @@ button:hover .button-text {
   color: #413b52;
 }
 
+/* -----Startup----- */
+
+
+#startup {
+  margin: 25px auto;
+  height: auto;
+  background-color: whitesmoke;
+  padding: 10px 0;
+  font-family: sans-serif;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#startup .image-container  {
+  width: 100%;
+  height: auto;
+  max-width: 1440px;
+  margin: 15px auto;
+  /* padding: 10px 0; */
+}
+
+#startup img {
+  height: 277px;
+  max-width: 100%;
+  overflow: hidden;
+  margin: 10px;
+}
+
+#startup a {
+  display: inline-block;
+  padding: 10px;
+  border-radius: 4px;
+  color: #fff;
+  text-decoration: none;
+  width: auto;
+  text-align: center;
+  margin-bottom: 50px;
+  background-color: grey;
+}
+
+#startup a:hover{
+  background-color: #7cc576;
+}
+
+#startup .hide {
+display: none;
+}
 

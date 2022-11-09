@@ -1,0 +1,14 @@
+/* .image{
+    width: 100%;
+    height:auto;
+} */
+.heading{
+     display: flex;
+     justify-content: center;
+     margin-top: 20px;
+     margin-bottom: 50px;
+}
+.image{
+    overflow: hidden;
+}
+

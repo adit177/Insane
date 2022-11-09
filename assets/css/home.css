@@ -420,6 +420,7 @@ button:hover .button-text {
   color: #413b52;
 }
 
+
 /* -----Startup----- */
 
 
@@ -467,5 +468,21 @@ button:hover .button-text {
 
 #startup .hide {
 display: none;
+=======
+.ayog{
+  background-color: #efefef;
+
+  
+}
+.ayog-div{
+  height: 200px;
+}
+#ayog_img{
+  width: 60%;
+  vertical-align: middle;
+}
+#ayog_img:hover{
+  width: 80%;
+
 }
 

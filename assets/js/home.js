@@ -1,6 +1,6 @@
 (function () {
   // wrap code in IIFE to keep it from global scope
-  let links = document.querySelectorAll("a"); // grab all <a> tags that trigger the image gallery
+  let links = document.querySelectorAll(".tabs"); // grab all <a> tags that trigger the image gallery
   let imageContainer = document.querySelector(".image-container"); // grab the div that will contain the images
   let imagesCollection = document.querySelectorAll(".image-container img");
 

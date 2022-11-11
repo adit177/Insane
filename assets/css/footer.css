@@ -10,6 +10,7 @@ footer{
     color: #fff;
     width: 100%;
     cursor: -webkit-grabbing;
+    margin-top: 0px;
 }
  /* h3{
    padding-left: 10px; 
@@ -26,7 +27,7 @@ footer{
   }
 a:link { text-decoration: none; }
 .section-footer{
-   margin-top: 40px;
+   margin-top: 0px;
 }
 ul {
     list-style-type: none;

@@ -6,3 +6,14 @@ AOS.init();
 //       once: true
 //     });
 //   }
+
+var ep = new Vue({
+    el: '#ep-flowchart',
+    data: {
+      selected: ''
+    },
+    methods: {
+      
+  
+    }
+  })

@@ -386,13 +386,15 @@ body {
   justify-content: space-around;
 }
 
+/* ------View button------ */
+
 .just {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-button {
+#container button {
   position: relative;
   display: inline-block;
   cursor: pointer;
@@ -406,12 +408,12 @@ button {
   font-family: inherit;
 }
 
-button.learn-more {
+#container button.learn-more {
   width: 12rem;
   height: auto;
 }
 
-button.learn-more .circle {
+#container button.learn-more .circle {
   transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
   position: relative;
   display: block;
@@ -422,7 +424,7 @@ button.learn-more .circle {
   border-radius: 1.625rem;
 }
 
-button.learn-more .circle .icon {
+#container button.learn-more .circle .icon {
   transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
   position: absolute;
   top: 0;
@@ -431,7 +433,7 @@ button.learn-more .circle .icon {
   background: #fff;
 }
 
-button.learn-more .circle .icon.arrow {
+#container button.learn-more .circle .icon.arrow {
   transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
   left: 0.625rem;
   width: 1.125rem;
@@ -439,7 +441,7 @@ button.learn-more .circle .icon.arrow {
   background: none;
 }
 
-button.learn-more .circle .icon.arrow::before {
+#container button.learn-more .circle .icon.arrow::before {
   position: absolute;
   content: '';
   top: -0.25rem;
@@ -451,7 +453,7 @@ button.learn-more .circle .icon.arrow::before {
   transform: rotate(45deg);
 }
 
-button.learn-more .button-text {
+#container button.learn-more .button-text {
   transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
   position: absolute;
   top: 0;
@@ -467,16 +469,16 @@ button.learn-more .button-text {
   text-transform: uppercase;
 }
 
-button:hover .circle {
+#container button:hover .circle {
   width: 100%;
 }
 
-button:hover .circle .icon.arrow {
+#container button:hover .circle .icon.arrow {
   background: #fff;
   transform: translate(1rem, 0);
 }
 
-button:hover .button-text {
+#container button:hover .button-text {
   color: #fff;
 }
 
@@ -527,7 +529,7 @@ button:hover .button-text {
   background-color: grey;
 }
 
-#startup a:hover {
+#startup a:focus {
   background-color: #7cc576;
 }
 
@@ -557,3 +559,62 @@ button:hover .button-text {
   width: 80%;
 
 }
+
+/* -----Join Us----- */
+
+#join #second{
+  display: flex;
+  justify-content: space-between;
+  background-color: #f4913f;
+  height: 120px;
+  vertical-align:middle;
+}
+
+#join #second .just{
+  width: 25%;
+}
+
+#join #second #text{
+  width: 60%;
+  margin: auto;
+}
+
+#join #first{
+  position: relative; 
+  height: 450px;
+}
+
+#join #first::before {    
+  content: "";
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('/images/join.jpeg');
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+}
+
+#join #first #head{
+  position: relative;
+  top: 27%;
+}
+
+#join #first .just{
+  position: relative;
+  top: 28%;
+}
+
+#join #first .hr-lines{
+  color: #f4913f;
+}
+
+#join #first .hr-lines:after{
+  background: #f4913f;
+}
+
+#join #first .hr-lines:before{
+  background: #f4913f;
+}
+
+

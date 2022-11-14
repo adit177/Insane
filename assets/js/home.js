@@ -34,7 +34,7 @@
 
           break;
 
-        case "all": // // link 4 text - display all images at once
+        case "All": // // link 4 text - display all images at once
           imagesCollection.forEach((image) => {
             image.classList.remove("hide");
           });

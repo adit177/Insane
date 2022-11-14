@@ -3,7 +3,6 @@
   let links = document.querySelectorAll(".tabs"); // grab all <a> tags that trigger the image gallery
   let imageContainer = document.querySelector(".image-container"); // grab the div that will contain the images
   let imagesCollection = document.querySelectorAll(".image-container img");
-
   function displayImage(imgs, album) {
     // function to check the data-album attr and check against the button that was clicked
     imgs.forEach((image) => {
@@ -14,7 +13,6 @@
       }
     });
   }
-
   links.forEach((link) => {
     // loop through <a> tags and create click event on each
     link.addEventListener("click", (e) => {

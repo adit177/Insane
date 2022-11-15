@@ -8,11 +8,13 @@
   background: url(/images/initiatives.jpg);
   background-size: cover;
 }
+
 .sticky-container {
   position: relative;
   z-index: 2;
   min-width: 300px;
 }
+
 .sticky h1 {
   margin: 0 0 10px 0;
   font-size: 64px;
@@ -20,7 +22,9 @@
   text-align: center;
   line-height: 56px;
   color: #fff;
+
   font-family: "Raleway", Times, serif;
+
 }
 
 .typing-container {
@@ -29,8 +33,10 @@
   display: flex;
   justify-content: center;
   color: whitesmoke;
+
   font-weight: bolder;
   font-family: "Raleway", Times, serif;
+
   font-size: 2rem;
 }
 
@@ -38,7 +44,9 @@
   color: white;
   text-decoration: underline;
   text-decoration-color: rgb(147, 7, 124);
+
   text-underline-offset: 8px;
+
 }
 
 .typing-text::after {
@@ -47,6 +55,7 @@
 }
 
 @keyframes blink {
+
   0%,
   100% {
     opacity: 1;
@@ -355,3 +364,4 @@
     width: 35px;
   }
 }
+

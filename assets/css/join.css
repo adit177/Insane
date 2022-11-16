@@ -118,6 +118,21 @@ nav a:hover {
     margin-bottom: 0;
 }
 
+@media screen and (max-width: 788px) {
+    #start{
+        width: 100%;
+        margin: 50px auto;
+        padding: 30px;
+    }
+
+    #start .just{
+        width: 100%;
+        margin: 40px auto;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
 .just {
     display: flex;
     align-items: center;
@@ -284,6 +299,32 @@ nav a:hover {
     font-weight: 400;
     font-family: "Poppins", sans-serif;
     color: #838694;
+}
+
+@media screen and (max-width: 788px) {
+    #challenge #cards{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #challenge #cards .items{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        height: auto;
+        /* padding: 0; */
+        margin: 30px;
+    }
+
+    #challenge .title{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        margin: auto 20px;
+        margin-bottom: 100px;
+    }
 }
 
 

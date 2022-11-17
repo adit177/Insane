@@ -369,6 +369,7 @@
 #progress {
   position: fixed;
   bottom: 20px;
+  z-index: 2000px;
   right: 10px;
   height: 70px;
   width: 70px;

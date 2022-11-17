@@ -753,6 +753,7 @@ body {
 }
 #progress {
   position: fixed;
+  z-index: 2000;
   bottom: 20px;
   right: 10px;
   height: 70px;
@@ -765,6 +766,7 @@ body {
 }
 #progress-value {
   display: block;
+  z-index: 2000;
   height: calc(100% - 15px);
   width: calc(100% - 15px);
   background-color: #ffffff;

@@ -377,6 +377,7 @@ nav a:hover {
 #progress {
     position: fixed;
     bottom: 20px;
+    z-index: 2000;
     right: 10px;
     height: 70px;
     width: 70px;
@@ -388,6 +389,7 @@ nav a:hover {
   }
   #progress-value {
     display: block;
+    z-index: 2000;
     height: calc(100% - 15px);
     width: calc(100% - 15px);
     background-color: #ffffff;

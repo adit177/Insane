@@ -8,12 +8,16 @@ header {
     z-index: 1000;
 }
 
-header nav ul {
-    margin-left: 20rem;
+nav .menu{
+    margin-left: 22.5rem;
 }
 
 nav ul li {
     background-color: transparent;
+}
+
+nav ul ul{
+    box-shadow: none;
 }
 
 .underline {
@@ -51,7 +55,46 @@ nav ul li ul li:hover {
 /* Background color change on Hover */
 nav a:hover {
     background: transparent;
+    color: #FFF;
 }
+
+/* ----------media query for header-------- */
+
+@media screen and (max-width:788px) {
+    header{
+        overflow: hidden;
+    }
+    nav{
+        width: 480px;
+        overflow: hidden;
+    }
+    .list{
+        box-shadow: none;
+        color: white;
+    }
+
+    .menu li a{
+        color: #1a1e2d;
+    }
+
+    .menu li .toggle{
+        box-shadow: none;
+    }
+
+    /* .menu li ul{
+        background-color: #838694;
+    } */
+
+    .menu{
+        margin: 0px;
+        position: relative;
+        /* right: 40%; */
+        background-color: whitesmoke;
+        width: 100%;
+    }
+}
+
+/* ----------join--------- */
 
 #join #head {
     height: 500px;

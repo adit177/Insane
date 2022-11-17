@@ -39,7 +39,7 @@ body {
   width: 100px;
   position: absolute;
   top: 50%;
-  left: 0;
+  left: -34px;
   background: rgb(138, 24, 134);
 }
 
@@ -63,7 +63,16 @@ body {
   display: block;
   position: absolute;
   top: 50%;
-  right: 0;
+  right: -34px;
+}
+
+@media screen and (max-width:788px) {
+  /* .hr-lines::after{
+    right: -36px;
+  }
+  .hr-lines::before{
+    left: -36px;
+  } */
 }
 
 .latest {

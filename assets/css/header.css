@@ -155,7 +155,6 @@ nav ul ul ul li {
     height: 20px;
     float: right;
     margin: 5px 6px 0px 8px;
-
 }
 
 li>a:only-child:after {
@@ -285,6 +284,25 @@ li>a:only-child:after {
         position: static;
     }
 
+    nav .toggle,ul a{
+        text-align: center;
+    }
+
+    .menu .toggle:after {
+        content: '';
+        display: block;
+        background: url("/images/dropdown.svg") no-repeat;
+        width: 20px;
+        height: 20px;
+        float: right;
+        margin: 5px 6px 0px 8px;
+    }
+
+    .menu li .toggle{
+        display: flex;
+        justify-content: center;
+        margin-left: 35px;
+    }
 }
 
 @media all and (max-width : 330px) {

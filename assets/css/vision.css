@@ -229,13 +229,13 @@ div
 }
 
 
-img, svg {
+/* img, svg {
   vertical-align: middle;
   margin-bottom: -51px;
-}
+} */
 
 
-ion-icon {
+/* ion-icon {
   color: rgb(13, 13, 13);
   
-}
+} */

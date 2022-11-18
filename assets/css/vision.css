@@ -48,7 +48,7 @@
     margin-top: 30px;
 }
 
-.butoon{
+.buttoon{
     border-radius: 10px;
   background-color: rgb(2, 84, 84);  
 }
@@ -222,18 +222,22 @@ div
 
     margin: 108px 40px;
 }
+.first ,.second ,.third ,.fourth, .fifth, .sixth ,.seventh, .eight:hover{
+  curser:pointer;
+  
+     
+}
 
 
 .container{
   
 }
 
-
-/* img, svg {
+/* 
+img, svg {
   vertical-align: middle;
   margin-bottom: -51px;
 } */
-
 
 /* ion-icon {
   color: rgb(13, 13, 13);

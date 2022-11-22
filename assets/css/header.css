@@ -12,7 +12,7 @@ header {
     margin-bottom: 40px;
     word-wrap: break-word !important;
     font-family: "Montserrat", sans-serif;
-    
+    z-index: 4000;
 }
 
 header h1 {
@@ -47,6 +47,10 @@ header h1 {
 header #container {
     margin: 0 auto;
     max-width: 890px;
+}
+
+header nav #main-logo {
+    display: inline;
 }
 
 header p {
@@ -160,6 +164,26 @@ nav ul ul ul li {
 
 li>a:only-child:after {
     content: '';
+}
+
+.header {
+    padding: 10px 16px;
+    background: #555;
+    color: #f1f1f1;
+}
+
+.content {
+    padding: 16px;
+}
+
+.headsticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
+.headsticky+.content {
+    padding-top: 102px;
 }
 
 /* underline */
@@ -285,7 +309,7 @@ li>a:only-child:after {
         position: static;
     }
 
-    nav .toggle,ul a{
+    nav .toggle, ul a {
         text-align: center;
     }
 
@@ -299,7 +323,7 @@ li>a:only-child:after {
         margin: 5px 6px 0px 8px;
     }
 
-    .menu li .toggle{
+    .menu li .toggle {
         display: flex;
         justify-content: center;
         margin-left: 35px;

@@ -10,7 +10,7 @@ header {
   word-wrap: break-word !important;
   font-family: "Montserrat", sans-serif;
   position: absolute;
-  top: 655px;
+  top: 100vh;
   left: 0px;
   right: 0px;
   z-index: 3000;

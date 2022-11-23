@@ -8,7 +8,10 @@
   background: url(/images/initiatives.jpg);
   background-size: cover;
 }
-
+.bql{
+  background: -webkit-linear-gradient(to left, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #2C5364, #203A43, #0F2027);
+}
 .sticky-container {
   position: relative;
   z-index: 2;
@@ -89,7 +92,7 @@
   font-size: 25px;
   font-weight: bolder;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  color: rgb(138, 24, 134);
+  color: rgb(196, 26, 190);
   /*  new lines  */
   max-width: 500px;
   margin: 50px auto;
@@ -107,15 +110,46 @@
   right: 0;
 }
 .tussel {
-  background-color: rgb(224, 218, 210);
-  height: 100%;
+  margin: 350px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 60px;
+  background: #092756;
+ background: -moz-radial-gradient(0% 100%, ellipse cover, rgba(104,128,138,.4) 10%,rgba(138,114,76,0) 40%),-moz-linear-gradient(top, rgba(57,173,219,.25) 0%, rgba(42,60,87,.4) 100%), -moz-linear-gradient(-45deg, #670d10 0%, #092756 100%);
+ background: -webkit-radial-gradient(0% 100%, ellipse cover, rgba(104,128,138,.4) 10%,rgba(138,114,76,0) 40%), -webkit-linear-gradient(top, rgba(57,173,219,.25) 0%,rgba(42,60,87,.4) 100%), -webkit-linear-gradient(-45deg, #670d10 0%,#092756 100%);
+ background: -o-radial-gradient(0% 100%, ellipse cover, rgba(104,128,138,.4) 10%,rgba(138,114,76,0) 40%), -o-linear-gradient(top, rgba(57,173,219,.25) 0%,rgba(42,60,87,.4) 100%), -o-linear-gradient(-45deg, #670d10 0%,#092756 100%);
+ background: -ms-radial-gradient(0% 100%, ellipse cover, rgba(104,128,138,.4) 10%,rgba(138,114,76,0) 40%), -ms-linear-gradient(top, rgba(57,173,219,.25) 0%,rgba(42,60,87,.4) 100%), -ms-linear-gradient(-45deg, #670d10 0%,#092756 100%);
+ background: -webkit-radial-gradient(0% 100%, ellipse cover, rgba(104,128,138,.4) 10%,rgba(138,114,76,0) 40%), linear-gradient(to bottom, rgba(57,173,219,.25) 0%,rgba(42,60,87,.4) 100%), linear-gradient(135deg, #670d10 0%,#092756 100%);
+  border: 13px solid rgb(233, 232, 232);
+  border-radius: 5px;
+  height: 20%;
+  color: #ffffff;
   box-shadow: 0px 2px 16px #999;
-  padding: 15px;
   padding-bottom: 35px;
 }
 .none {
-  height: 100%;
-  background-color: rgb(233, 229, 229);
+  margin: 350px;
+  margin-top: 50px;
+  margin-bottom: 50px;  
+  margin-right: 60px;
+  height: 20%;
+  background-image: linear-gradient(#8b9da9, #fff6e4);
+  border: 13px solid rgb(212, 207, 207);
+  border-radius: 5px;
+ box-shadow: inset 0 0 100px hsla(0,0%,0%,.3);
+  box-shadow: 0px 2px 16px #999;
+  padding-bottom: 35px;
+}
+.none1{
+  margin: 350px;
+  margin-top: 50px;
+  margin-bottom: 0px;  
+  margin-right: 60px;
+  height: 20%;
+  background-image: linear-gradient(#8b9da9, #fff6e4);
+  border: 13px solid rgb(212, 207, 207);
+  border-radius: 5px;
+ box-shadow: inset 0 0 100px hsla(0,0%,0%,.3);
   box-shadow: 0px 2px 16px #999;
   padding: 15px;
   padding-bottom: 35px;
@@ -124,31 +158,33 @@
 .three1 h1 {
   font-family:cursive, Georgia, 'Times New Roman', Times, serif;
   font-size: 38px;
-  color: rgb(31, 19, 85);
+  color: rgb(147, 219, 14);
   font-weight: 800;
   letter-spacing: 0;
   line-height: 1.5em;
+  padding-left: 5px;
   padding-bottom: 3px;
   position: relative;
 }
+
 .three1 h1:before {
   content: "";
   position: absolute;
-  left: 0;
+  left: 5px;
   bottom: 0;
   height: 5px;
   width: 40px;
-  background-color: rgb(138, 24, 134);
+  background-color: rgb(24, 138, 39);
 }
 .three1 h1:after {
   content: "";
   position: absolute;
-  left: 0;
+  left: 5px;
   bottom: 2px;
   height: 1px;
   width: 95%;
   max-width: 130px;
-  background-color: rgb(138, 24, 134);
+  background-color: rgb(24, 138, 39);
 }
 
 
@@ -159,13 +195,14 @@
   font-weight: 800;
   letter-spacing: 0;
   line-height: 1.5em;
+  padding-left: 5px;
   padding-bottom: 3px;
   position: relative;
 }
 .three2 h1:before {
   content: "";
   position: absolute;
-  left: 0;
+  left: 5px;
   bottom: 0;
   height: 5px;
   width: 50px;
@@ -174,7 +211,7 @@
 .three2 h1:after {
   content: "";
   position: absolute;
-  left: 0;
+  left: 5px;
   bottom: 2px;
   height: 1px;
   width: 95%;
@@ -185,9 +222,10 @@
 .three3 h1 {
   font-family:cursive, Georgia, 'Times New Roman', Times, serif;
   font-size: 38px;
-  color: rgb(31, 19, 85);
+  color: rgb(147, 219, 14);
   font-weight: 800;
   letter-spacing: 0;
+  padding-left: 5px;
   line-height: 1.5em;
   padding-bottom: 3px;
   position: relative;
@@ -195,21 +233,21 @@
 .three3 h1:before {
   content: "";
   position: absolute;
-  left: 0;
+  left: 5px;
   bottom: 0;
   height: 5px;
   width: 40px;
-  background-color: rgb(138, 24, 134);
+  background-color: rgb(24, 138, 39);
 }
 .three3 h1:after {
   content: "";
   position: absolute;
-  left: 0;
+  left: 5px;
   bottom: 2px;
   height: 1px;
   width: 95%;
-  max-width: 160px;
-  background-color: rgb(138, 24, 134);
+  max-width: 120px;
+  background-color: rgb(24, 138, 39);
 }
 
 .three4 h1 {
@@ -219,13 +257,14 @@
   font-weight: 800;
   letter-spacing: 0;
   line-height: 1.5em;
+  padding-left: 5px;
   padding-bottom: 3px;
   position: relative;
 }
 .three4 h1:before {
   content: "";
   position: absolute;
-  left: 0;
+  left: 5px;
   bottom: 0;
   height: 5px;
   width: 55px;
@@ -234,15 +273,153 @@
 .three4 h1:after {
   content: "";
   position: absolute;
-  left: 0;
+  left: 5px;
+  bottom: 2px;
+  height: 1px;
+  width: 95%;
+  max-width: 200px;
+  background-color: rgb(138, 24, 134);
+}
+.three5 h1 {
+  font-family:cursive, Georgia, 'Times New Roman', Times, serif;
+  font-size: 38px;
+  color: rgb(147, 219, 14);
+  font-weight: 800;
+  letter-spacing: 0;
+  padding-left: 5px;
+  line-height: 1.5em;
+  padding-bottom: 3px;
+  position: relative;
+}
+.three5 h1:before {
+  content: "";
+  position: absolute;
+  left: 5px;
+  bottom: 0;
+  height: 5px;
+  width: 40px;
+  background-color: rgb(24, 138, 39);
+}
+.three5 h1:after {
+  content: "";
+  position: absolute;
+  left: 5px;
   bottom: 2px;
   height: 1px;
   width: 95%;
   max-width: 220px;
+  background-color: rgb(24, 138, 39);
+}
+.three6 h1 {
+  font-family:cursive, Georgia, 'Times New Roman', Times, serif;
+  font-size: 38px;
+  color: rgb(31, 19, 85);
+  font-weight: 800;
+  letter-spacing: 0;
+  line-height: 1.5em;
+  padding-left: 5px;
+  padding-bottom: 3px;
+  position: relative;
+}
+.three6 h1:before {
+  content: "";
+  position: absolute;
+  left: 5px;
+  bottom: 0;
+  height: 5px;
+  width: 55px;
   background-color: rgb(138, 24, 134);
 }
-
-
+.three6 h1:after {
+  content: "";
+  position: absolute;
+  left: 5px;
+  bottom: 2px;
+  height: 1px;
+  width: 95%;
+  max-width: 150px;
+  background-color: rgb(138, 24, 134);
+}
+@media screen and (max-width:1400px) {
+  .none {
+    margin: 200px;
+    margin-top: 40px;
+    margin-bottom: 50px;  
+    margin-right: 20px;
+  }
+  .none1{
+    margin: 200px;
+    margin-top: 40px;
+    margin-bottom: 0px;  
+    margin-right: 20px;
+    height: 20%;
+  }
+  .tussel {
+    margin: 200px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+  }
+}
+@media screen and (max-width:900px) {
+  .none {
+    margin: 100px;
+    margin-top: 40px;
+    margin-bottom: 50px;  
+    margin-right: 20px;
+  }
+  .none1{
+    margin: 100px;
+    margin-top: 40px;
+    margin-bottom: 0px;  
+    margin-right: 20px;
+    height: 20%;
+  }
+  .tussel {
+    margin: 100px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+  }
+}
+@media screen and (max-width:750px) {
+  .none {
+    margin: 50px;
+    margin-right: 20px;
+  }
+  .none1{
+    margin: 50px;
+    margin-top: 40px;
+    margin-bottom: 0px;  
+    margin-right: 20px;
+    height: 20%;
+  }
+  .tussel {
+    margin: 50px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+  }
+}
+@media screen and (max-width:500px) {
+  .none {
+    margin: 10px;
+    margin-right: 5px;
+  }
+  .none1{
+    margin: 10px;
+    margin-top: 40px;
+    margin-bottom: 0px;  
+    margin-right: 5px;
+    height: 20%;
+  }
+  .tussel {
+    margin: 10px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    margin-left: 5px;
+  }
+}
 
 
 
@@ -290,10 +467,10 @@
 
 .arousel {
 
-  margin-top: 5%;
-  margin-bottom: 8%;
-  width: 500px;
-  height: 400px;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  width: 90%;
+  height: 50%;
 }
 
 .arousel-cell {
@@ -312,11 +489,7 @@
   content: '';
 }
 @media screen and (max-width:569px) {
-  .arousel {
 
-    width: 450px;
-    height: 300px;
-  }
   .arousel-cell {
 
     height: 300px;
@@ -324,11 +497,7 @@
   }
 }
 @media screen and (max-width:469px) {
-  .arousel {
 
-    width: 350px;
-    height: 200px;
-  }
   .arousel-cell {
 
     height: 200px;
@@ -345,11 +514,7 @@
   }
 }
 @media screen and (max-width:376px) {
-  .arousel {
 
-    width: 250px;
-    height: 100px;
-  }
   .arousel-cell {
 
     height: 150px;
@@ -369,7 +534,6 @@
 #progress {
   position: fixed;
   bottom: 20px;
-  z-index: 2000px;
   right: 10px;
   height: 70px;
   width: 70px;
@@ -389,4 +553,10 @@
   place-items: center;
   font-size: 35px;
   color: #001a2e;
+}
+.imp{
+  padding: 45px;
+  padding-bottom: 0px;
+  font-size: large;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }

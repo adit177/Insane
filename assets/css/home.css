@@ -100,21 +100,19 @@ body {
 .cardimg {
   margin-left: auto;
   margin-right: auto;
-  margin-top: 0.75rem;
-  margin-bottom: 1.75rem;
-  max-height: 10rem;
+  margin-top: 0rem;
+  margin-bottom: 0.75rem;
+  max-height: 18rem;
   border-radius: 9999px;
 }
 
 .carddescription {
-
   color: rgb(0, 0, 0);
   text-align: center;
 }
 
 .slider {
   width: 100%;
-
   min-height: 385px;
 }
 
@@ -129,7 +127,7 @@ body {
   position: relative;
   min-height: 375px;
   perspective: 500px;
-  margin-top: 5rem;
+  margin-top: 1rem;
   overflow: hidden;
 }
 
@@ -143,7 +141,7 @@ body {
   position: absolute;
   box-sizing: border-box;
   background-color: #fff;
-  padding: 30px;
+  padding: 15px;
   width: 450px;
   text-align: center;
   transition: transform 0.4s;
@@ -154,9 +152,10 @@ body {
 }
 
 .testimonials .item img {
-  width: 200px;
-  border-radius: 70%;
-  border: 13px solid #000000;
+  width: 250px;
+  height: 350px;
+  border-radius: 7%;
+  border: 3px solid #000000;
 }
 
 .testimonials .item p {
@@ -187,7 +186,7 @@ body {
 /* First */
 #t-1:checked~.dots label[for="t-1"] {
   transform: scale(2);
-  background-color: #fff;
+  background-color: rgb(226, 30, 164);
 }
 
 #t-1:checked~.dots label[for="t-2"] {
@@ -225,7 +224,7 @@ body {
 
 #t-2:checked~.dots label[for="t-2"] {
   transform: scale(2);
-  background-color: #fff;
+  background-color: rgb(226, 30, 164);
 }
 
 #t-2:checked~.dots label[for="t-3"] {
@@ -261,7 +260,7 @@ body {
 
 #t-3:checked~.dots label[for="t-3"] {
   transform: scale(2);
-  background-color: #fff;
+  background-color: rgb(226, 30, 164);
 }
 
 #t-3:checked~.dots label[for="t-4"] {
@@ -296,7 +295,7 @@ body {
 
 #t-4:checked~.dots label[for="t-4"] {
   transform: scale(2);
-  background-color: #fff;
+  background-color: rgb(226, 30, 164);
 }
 
 #t-4:checked~.dots label[for="t-5"] {
@@ -331,7 +330,7 @@ body {
 
 #t-5:checked~.dots label[for="t-5"] {
   transform: scale(2);
-  background-color: #fff;
+  background-color: rgb(226, 30, 164);
 }
 
 #t-5:checked~.testimonials label[for="t-1"] {

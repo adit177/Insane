@@ -1,6 +1,20 @@
 /* body{
     background-color: aquamarine;
 } */
+header {
+  font-size: 22px;
+  line-height: 32px;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 40px;
+  word-wrap: break-word !important;
+  font-family: "Montserrat", sans-serif;
+  position: absolute;
+  top: 100vh;
+  left: 0px;
+  right: 0px;
+  z-index: 3000;
+}
 
 .sticky {
   width: 100%;
@@ -97,7 +111,9 @@ background: linear-gradient(to left, #2C5364, #203A43, #0F2027);
   max-width: 500px;
   margin: 50px auto;
   text-align: center;
+  margin-top: 9rem;
 }
+
 
 .hr-lines:after {
   content: " ";
@@ -109,6 +125,7 @@ background: linear-gradient(to left, #2C5364, #203A43, #0F2027);
   top: 50%;
   right: 0;
 }
+
 .tussel {
   margin: 350px;
   margin-top: 50px;
@@ -127,6 +144,7 @@ background: linear-gradient(to left, #2C5364, #203A43, #0F2027);
   box-shadow: 0px 2px 16px #999;
   padding-bottom: 35px;
 }
+
 .none {
   margin: 350px;
   margin-top: 50px;
@@ -156,7 +174,7 @@ background: linear-gradient(to left, #2C5364, #203A43, #0F2027);
 }
 
 .three1 h1 {
-  font-family:cursive, Georgia, 'Times New Roman', Times, serif;
+  font-family: cursive, Georgia, 'Times New Roman', Times, serif;
   font-size: 38px;
   color: rgb(147, 219, 14);
   font-weight: 800;
@@ -176,6 +194,7 @@ background: linear-gradient(to left, #2C5364, #203A43, #0F2027);
   width: 40px;
   background-color: rgb(24, 138, 39);
 }
+
 .three1 h1:after {
   content: "";
   position: absolute;
@@ -189,7 +208,7 @@ background: linear-gradient(to left, #2C5364, #203A43, #0F2027);
 
 
 .three2 h1 {
-  font-family:cursive, Georgia, 'Times New Roman', Times, serif;
+  font-family: cursive, Georgia, 'Times New Roman', Times, serif;
   font-size: 38px;
   color: rgb(31, 19, 85);
   font-weight: 800;
@@ -199,6 +218,7 @@ background: linear-gradient(to left, #2C5364, #203A43, #0F2027);
   padding-bottom: 3px;
   position: relative;
 }
+
 .three2 h1:before {
   content: "";
   position: absolute;
@@ -208,6 +228,7 @@ background: linear-gradient(to left, #2C5364, #203A43, #0F2027);
   width: 50px;
   background-color: rgb(138, 24, 134);
 }
+
 .three2 h1:after {
   content: "";
   position: absolute;
@@ -220,7 +241,7 @@ background: linear-gradient(to left, #2C5364, #203A43, #0F2027);
 }
 
 .three3 h1 {
-  font-family:cursive, Georgia, 'Times New Roman', Times, serif;
+  font-family: cursive, Georgia, 'Times New Roman', Times, serif;
   font-size: 38px;
   color: rgb(147, 219, 14);
   font-weight: 800;
@@ -230,6 +251,7 @@ background: linear-gradient(to left, #2C5364, #203A43, #0F2027);
   padding-bottom: 3px;
   position: relative;
 }
+
 .three3 h1:before {
   content: "";
   position: absolute;
@@ -239,6 +261,7 @@ background: linear-gradient(to left, #2C5364, #203A43, #0F2027);
   width: 40px;
   background-color: rgb(24, 138, 39);
 }
+
 .three3 h1:after {
   content: "";
   position: absolute;
@@ -251,7 +274,7 @@ background: linear-gradient(to left, #2C5364, #203A43, #0F2027);
 }
 
 .three4 h1 {
-  font-family:cursive, Georgia, 'Times New Roman', Times, serif;
+  font-family: cursive, Georgia, 'Times New Roman', Times, serif;
   font-size: 38px;
   color: rgb(31, 19, 85);
   font-weight: 800;
@@ -261,6 +284,7 @@ background: linear-gradient(to left, #2C5364, #203A43, #0F2027);
   padding-bottom: 3px;
   position: relative;
 }
+
 .three4 h1:before {
   content: "";
   position: absolute;
@@ -270,6 +294,7 @@ background: linear-gradient(to left, #2C5364, #203A43, #0F2027);
   width: 55px;
   background-color: rgb(138, 24, 134);
 }
+
 .three4 h1:after {
   content: "";
   position: absolute;
@@ -424,43 +449,44 @@ background: linear-gradient(to left, #2C5364, #203A43, #0F2027);
 
 
 .btn-left,
-.btn-right{
-  
+.btn-right {
+
   height: 3rem;
   width: 3rem;
   border-radius: 50%;
   background-color: white;
   border: none;
   position: absolute;
-  cursor:pointer;
+  cursor: pointer;
   opacity: .75;
   transition: all .25s;
   z-index: 1;
 }
 
 .btn-left:hover,
-.btn-right:hover{
+.btn-right:hover {
   opacity: 1;
 }
 
-.btn-left{
+.btn-left {
   top: 50%;
   left: 0.5rem;
   transform: translateY(-50%);
 }
-.btn-right{
+
+.btn-right {
   top: 50%;
   right: 0.5rem;
   transform: translateY(-50%);
 }
 
 .icon-left,
-.icon-right{
+.icon-right {
   font-size: 2rem;
   color: #22b8cf;
 }
 
-.tag{
+.tag {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: rgb(60, 57, 57);
 }
@@ -488,7 +514,14 @@ background: linear-gradient(to left, #2C5364, #203A43, #0F2027);
   display: block;
   content: '';
 }
+
 @media screen and (max-width:569px) {
+
+
+    width: 450px;
+    height: 300px;
+  }
+
 
   .arousel-cell {
 
@@ -496,35 +529,51 @@ background: linear-gradient(to left, #2C5364, #203A43, #0F2027);
 
   }
 }
+
 @media screen and (max-width:469px) {
 
+
+    width: 350px;
+    height: 200px;
+  }
+
+r
   .arousel-cell {
 
     height: 200px;
 
   }
+
   .hr-lines:before {
     height: 3px;
     width: 70px;
   }
-  
+
   .hr-lines:after {
     height: 3px;
     width: 70px;
   }
 }
+
 @media screen and (max-width:376px) {
+
+
+    width: 250px;
+    height: 100px;
+  }
+
 
   .arousel-cell {
 
     height: 150px;
 
   }
+
   .hr-lines:before {
     height: 3px;
     width: 35px;
   }
-  
+
   .hr-lines:after {
     height: 3px;
     width: 35px;
@@ -543,6 +592,7 @@ background: linear-gradient(to left, #2C5364, #203A43, #0F2027);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   cursor: pointer;
 }
+
 #progress-value {
   display: block;
   height: calc(100% - 15px);

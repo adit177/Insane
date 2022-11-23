@@ -1,4 +1,3 @@
-
 let calcScrollValue = () => {
   let scrollProgress = document.getElementById("progress");
   let progressValue = document.getElementById("progress-value");
@@ -17,7 +16,7 @@ let calcScrollValue = () => {
   });
   scrollProgress.style.background = `conic-gradient(#03cc65 ${scrollValue}%, #d7d7d7 ${scrollValue}%)`;
 };
-window.onscroll = calcScrollValue;
+window.addEventListener("scroll", calcScrollValue);
 window.onload = calcScrollValue;
 (function () {
   // wrap code in IIFE to keep it from global scope
@@ -65,4 +64,3 @@ window.onload = calcScrollValue;
     });
   });
 })();
-

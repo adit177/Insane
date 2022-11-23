@@ -186,7 +186,10 @@ body {
 /* First */
 #t-1:checked~.dots label[for="t-1"] {
   transform: scale(2);
+
   background-color: rgb(226, 30, 164);
+
+
 }
 
 #t-1:checked~.dots label[for="t-2"] {
@@ -224,7 +227,10 @@ body {
 
 #t-2:checked~.dots label[for="t-2"] {
   transform: scale(2);
+
   background-color: rgb(226, 30, 164);
+
+
 }
 
 #t-2:checked~.dots label[for="t-3"] {
@@ -260,7 +266,9 @@ body {
 
 #t-3:checked~.dots label[for="t-3"] {
   transform: scale(2);
+
   background-color: rgb(226, 30, 164);
+
 }
 
 #t-3:checked~.dots label[for="t-4"] {
@@ -295,7 +303,10 @@ body {
 
 #t-4:checked~.dots label[for="t-4"] {
   transform: scale(2);
+
   background-color: rgb(226, 30, 164);
+
+
 }
 
 #t-4:checked~.dots label[for="t-5"] {
@@ -330,7 +341,10 @@ body {
 
 #t-5:checked~.dots label[for="t-5"] {
   transform: scale(2);
+
   background-color: rgb(226, 30, 164);
+
+
 }
 
 #t-5:checked~.testimonials label[for="t-1"] {
@@ -503,7 +517,6 @@ body {
 #startup {
   margin: 25px auto;
   height: auto;
-  background-color: whitesmoke;
   padding: 10px 0;
   font-family: sans-serif;
   text-align: center;

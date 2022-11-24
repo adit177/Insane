@@ -518,10 +518,6 @@ background: linear-gradient(to left, #2C5364, #203A43, #0F2027);
 @media screen and (max-width:569px) {
 
 
-    width: 450px;
-    height: 300px;
-  }
-
 
   .arousel-cell {
 
@@ -531,13 +527,6 @@ background: linear-gradient(to left, #2C5364, #203A43, #0F2027);
 }
 
 @media screen and (max-width:469px) {
-
-
-    width: 350px;
-    height: 200px;
-  }
-
-r
   .arousel-cell {
 
     height: 200px;
@@ -556,12 +545,6 @@ r
 }
 
 @media screen and (max-width:376px) {
-
-
-    width: 250px;
-    height: 100px;
-  }
-
 
   .arousel-cell {
 
@@ -609,4 +592,18 @@ r
   padding-bottom: 0px;
   font-size: large;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.cimg{
+  background-size:50%; 
+  background-repeat: no-repeat;
+}
+@media screen and (max-width:1200px) {
+  .cimg{
+    background-size:70%; 
+  }
+}
+@media screen and (max-width:700px) {
+  .cimg{
+    background-size:95%; 
+  }
 }
